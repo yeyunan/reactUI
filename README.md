@@ -8,7 +8,7 @@
 实现功能 &nbsp;1.根据 store 自动生成grid 可以显示用户需要展示的数据<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2.根据配置 自动生成 update delete 提示框&nbsp;<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3.update 提示框 可以根据用户配置 显示 select 等 默认是input&nbsp;<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4.自动保持 和 删除&nbsp;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4.自动保存 和 删除&nbsp;<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
 后期功能 1.分页&nbsp;<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2.ajax请求&nbsp;<br />
