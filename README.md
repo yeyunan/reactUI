@@ -1,6 +1,7 @@
 # reactUI &nbsp;<br />
-本人菜鸟 往多多吐槽<br />   <a href="http://yeyunan.github.io/reactUI" class="btn">DEMO等详情</a>
+本人菜鸟 往多多吐槽<br />   
 <br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://yeyunan.github.io/reactUI" class="btn">DEMO等详情狂击这里</a>
 <br />
 采用来了 react.js+immutable.js 写成的Grid &nbsp;样式采取的是bootstrap<br />
 <br />
