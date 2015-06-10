@@ -3,6 +3,8 @@
 <br />
 <a href="http://yeyunan.github.io/reactUI" class="btn">DEMO等详情狂击这里</a>
 <br />
+<br />
+<br />
 采用来了 react.js+immutable.js 写成的Grid &nbsp;样式采取的是bootstrap<br />
 <br />
 <br />
