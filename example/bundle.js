@@ -59,7 +59,7 @@
 
 	  _renderIsSale:function(data){
 	    if(data=='1'){
-	      return '上架';
+	      return '上架1';
 	    }else{
 	      return '下架';
 	    }
