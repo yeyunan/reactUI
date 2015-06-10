@@ -1,5 +1,5 @@
 # reactUI &nbsp;<br />
-本人菜鸟 往多多吐槽<br />
+本人菜鸟 往多多吐槽<br />   <a href="http://yeyunan.github.io/reactUI" class="btn">DEMO等详情</a>
 <br />
 <br />
 采用来了 react.js+immutable.js 写成的Grid &nbsp;样式采取的是bootstrap<br />
@@ -110,12 +110,5 @@ grid数据:<br />
 <br />
 
 
-效果:
-<br />表单显示![image](https://github.com/yeyunan/reactUI/blob/master/example/doc/pic/data.png)
-
-<br />update&nbsp; &nbsp; &nbsp; 自动生成 并且自动完成更新
-<br>![image](https://github.com/yeyunan/reactUI/blob/master/example/doc/pic/update.png)
-
-<br />delete![image](https://github.com/yeyunan/reactUI/blob/master/example/doc/pic/delete.png)
 
 
