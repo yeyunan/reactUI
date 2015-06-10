@@ -61,11 +61,7 @@ var DataGrid = React.createClass({
   }
 
 });
-
-
-
-
-
+//这里比较额 希望有改进 
     msg.on('operateRow',(body,title,_i,operate)=>{
       operateStore.cursor().set('index',_i)
       operateStore.cursor().set('content',body);

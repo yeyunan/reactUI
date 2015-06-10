@@ -1,5 +1,6 @@
 var React = require('react');
 
+//update 表单
 var UpdateOperate = React.createClass({
 
   render: function() {

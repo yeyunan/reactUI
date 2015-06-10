@@ -2,6 +2,7 @@ var React = require('react');
 var UpdateOperate = require('./update-operate');
 var msg = require('iflux/msg');
 
+//提示框的内容
 var OperateColumn = React.createClass({
 
 

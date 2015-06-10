@@ -2,10 +2,8 @@ var React = require('react');
 var msg = require('iflux/msg');
 
 
-
+//update 的时候 的输入
 var UpdateColumn = React.createClass({
-
-
 
   getInitialState: function() {
     return {
@@ -19,12 +17,10 @@ var UpdateColumn = React.createClass({
 
 
   _onChange(e){
-  //  var dom=this.props.name;
   this.setState({columnData:e.target.value});
     msg.emit('changeValue',this.props.name,e.target.value);
   },
 
-  //  msg.emit('saveChange',column.name,e.target.value,i);
   render: function() {
     var column=''
     if(this.props.children){

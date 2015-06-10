@@ -1,5 +1,4 @@
 var React = require('react');
-var MyInput = require('./component/my-input');
 var MinStore = require('iflux/min-store');
 var msg = require('iflux/msg');
 var gridStore = require('./grid-store');
@@ -11,6 +10,7 @@ var  App= React.createClass({
 
   mixins:[MinStore(gridStore)],
 
+  //  你需要按照你的方式 暂时数据的呈现
   _renderIsSale(data){
     if(data=='1'){
       return '上架';
@@ -20,13 +20,13 @@ var  App= React.createClass({
   },
   render: function() {
     return (
-
     <div>
-    <DataGrid gridStore={gridStore} >
+    <DataGrid gridStore={gridStore} isOperate={true}>
           <DataHeader dataField="id" header="商品编号" ></DataHeader>
           <DataHeader dataField="name" header="商品名称"></DataHeader>
           <DataHeader dataField="price" header="商品价格"></DataHeader>
           <DataHeader dataField="isSale" header="是否上架" render={this._renderIsSale}>
+
             <select name="isSale" className="form-control" >
                <option value="1">上架</option>
                <option value="0">下架</option>
