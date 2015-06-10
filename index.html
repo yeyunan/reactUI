@@ -47,109 +47,11 @@ demo 狂击这里
           3.update 提示框 可以根据用户配置 显示 select 等 默认是input <br>
           4.自动保存 和 删除 <br>
           <br>
-后期功能 1.分页 <br>
+后期功能  1.分页 <br>
          2.ajax请求 <br>
          <br>
          <br>
          <br>
-用户使用代码如下:<br>
-<br>
-<br>
-<br>
-var  App= React.createClass({<br>
-<br>
-  mixins:[MinStore(gridStore)],<br>
-<br>
-  //  你需要按照你的方式 展示数据的呈现<br>
-  _renderIsSale(data){<br>
-    if(data=='1'){<br>
-      return '上架';<br>
-    }else{<br>
-      return '下架';<br>
-    }<br>
-  },<br>
-  render: function() {<br>
-    return (<br>
-    &lt;div&gt;<br>
-    &lt;DataGrid gridStore={gridStore} isOperate={true}&gt;<br>
-          &lt;DataHeader dataField="id" header="商品编号" &gt;&lt;/DataHeader&gt;<br>
-          &lt;DataHeader dataField="name" header="商品名称"&gt;&lt;/DataHeader&gt;<br>
-          &lt;DataHeader dataField="price" header="商品价格"&gt;&lt;/DataHeader&gt;<br>
-          &lt;DataHeader dataField="isSale" header="是否上架" render={this._renderIsSale}&gt; <br>
-           <br>
-            &lt;select name="isSale" className="form-control" &gt;<br>
-               &lt;option value="1"&gt;上架&lt;/option&gt;<br>
-               &lt;option value="0"&gt;下架&lt;/option&gt;<br>
-            &lt;/select&gt;<br>
-          &lt;/DataHeader&gt;<br>
-    &lt;/DataGrid&gt;<br>
-    &lt;/div&gt;<br>
-    )<br>
-  }<br>
-<br>
-});<br>
-<br></p>
-
-<p>
-    //DataGird 的 isOperate 属性 默认为 ture 会有操作列 自动update ，delete 
-</p>
-
-<p>
-    &lt;DataGrid gridStore={gridStore} isOperate={true}&gt;
-</p>
-
-<p>
-     //这里是update 你更新字段时候 特殊的控件 select （默认是 input ）
-</p>
-
-<p>
-     &lt;select name="isSale" className="form-control" &gt;<br>
-               &lt;option value="1"&gt;上架&lt;/option&gt;<br>
-               &lt;option value="0"&gt;下架&lt;/option&gt;<br>
-            &lt;/select&gt;
-</p>
-
-<p><br>
-<br>
-grid数据:<br>
-<br>
- var gridStore = module.exports=Store({<br>
-  grid:[<br>
-  {<br>
-      id: 1,<br>
-      name: "Item name 1",<br>
-      price: 100,<br>
-      isSale:1<br>
-<br>
-  },{<br>
-      id: 2,<br>
-      name: "Item name 2",<br>
-      price: 100,<br>
-      isSale:0<br>
-  },{<br>
-      id: 3,<br>
-      name: "Item name 3",<br>
-      price: 110,<br>
-      isSale:1<br>
-  },{<br>
-      id: 4,<br>
-      name: "Item name 4",<br>
-      price: 100,<br>
-      isSale:1<br>
-  },{<br>
-      id: 5,<br>
-      name: "Item name 5",<br>
-      price: 100,<br>
-      isSale:0<br>
-  },{<br>
-      id: 6,<br>
-      name: "Item name 6",<br>
-      price: 100,<br>
-      isSale:1<br>
-  }<br>
-]<br>
-});<br>
-<br></p>
 
 <p>效果:
 <br>表单显示<img src="images/data.png" alt="image"></p>
