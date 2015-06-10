@@ -110,4 +110,12 @@ grid数据:<br />
 <br />
 
 
-效果:![image](https://github.com/yeyunan/reactUI/example/doc/pic/data.png)
+效果:
+<br />表单显示![image](https://github.com/yeyunan/reactUI/blob/master/example/doc/pic/data.png)
+
+<br />update&nbsp; &nbsp; &nbsp; 自动生成 并且自动完成更新
+<br>![image](https://github.com/yeyunan/reactUI/blob/master/example/doc/pic/update.png)
+
+<br />delete![image](https://github.com/yeyunan/reactUI/blob/master/example/doc/pic/delete.png)
+
+
