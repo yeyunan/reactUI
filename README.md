@@ -108,3 +108,6 @@ grid数据:<br />
 ]<br />
 });<br />
 <br />
+
+
+效果:![image](https://github.com/yeyunan/reactUI/example/doc/pic/data.png)
