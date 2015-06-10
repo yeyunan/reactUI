@@ -53,12 +53,7 @@ var  App= React.createClass({
 });
 
 //DataGird 的 isOperate 属性 默认为 ture 会有操作列 自动update ，delete 
- 
-            <select name="isSale" className="form-control" >
-               <option value="1">上架</option>
-               <option value="0">下架</option>
-            </select>
- //这里是update 你更新字段时候 特殊的控件 （默认是 ）
+ //这里是update 你更新字段时候 特殊的控件 select （默认是 input ）
 
 
 grid数据:
