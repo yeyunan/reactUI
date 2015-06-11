@@ -1,5 +1,5 @@
 # reactUI &nbsp;<br />
-本人菜鸟 往多多吐槽<br />   
+<br />   
 <br />
 <a href="http://yeyunan.github.io/reactUI" class="btn">DEMO等详情狂击这里</a>
 <br />
